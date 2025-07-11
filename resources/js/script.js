@@ -1,5 +1,5 @@
 // Defina a data de término da promoção (ano, mês-1, dia, hora, min, seg)
-const dataFim = new Date("2025-07-10T23:59:59").getTime();
+const dataFim = new Date("2030-07-10T23:59:59").getTime();
 
 const atualizaContador = setInterval(function() {
   const agora = new Date().getTime();
@@ -19,3 +19,13 @@ const atualizaContador = setInterval(function() {
     contador.innerHTML = `Oferta Expira em ${dias}d ${horas}h ${minutos}min ${segundos}s`;
   }
 }, 1000);
+
+  function toggleModulo(element) {
+    const conteudo = element.querySelector('.conteudo-escondido');
+    if (conteudo.style.display === 'block') {
+      conteudo.style.display = 'none';
+    } else {
+      conteudo.style.display = 'block';
+    }
+  }
+

@@ -14,7 +14,7 @@ body {
     background-color: #000000;
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-image: url(background2.png);
+    background-image: url(../img/background2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -132,7 +132,7 @@ iframe {
     margin-top: 3rem;
     margin-bottom: 3rem;
     flex-wrap: wrap;
-    gap: rem;
+    gap: 2rem;
 }
 
 .h2-modulos {
@@ -148,14 +148,39 @@ iframe {
     padding-bottom: 2rem;
     border: 1px solid white;
     border-radius: 12px;
-    margin-top: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    
 }
 
 .container-modulo1 {
     font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    
 }
+
+.container-modulo1 :hover{
+    background-color: rgb(115, 255, 0);
+    color: black;
+    transition: 0.5s;
+}
+
+
+.conteudo-escondido {
+    padding-top: 15px;
+    display: none;
+    /* Esconde inicialmente */
+    max-width: 30rem;
+    margin-left: 2.6rem;
+}
+
+.titulo-e-icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    pointer-events: none;
+}
+
 
 #contador {
     font-family: 'Arial', sans-serif;
@@ -168,11 +193,32 @@ iframe {
     font-weight: 600;
 }
 
-.caixa-contador{
+.caixa-contador {
     display: flex;
     justify-content: center;
     margin-top: 4.5rem;
     margin-bottom: 2rem;
+}
+
+.bi bi-plus-lg {
+    color: white;
+}
+
+.section-h2-modulos{
+    display: flex;
+    justify-content: center;
+}
+
+.section-h2-modulos{
+    margin-top: 2rem;
+}
+
+.todos-modulos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 

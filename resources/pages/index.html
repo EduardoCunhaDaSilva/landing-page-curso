@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Configurações básicas da página -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- Google Fonts - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- INÍCIO DA PÁGINA -->
+    <main class="pagina-inicial">
+        <!-- Logo centralizada -->
+        <div class="logo">
+            <img id="logo-id" src="../img/logo2.png" alt="Logo" />
+        </div>
+
+        <!-- Título principal -->
+        <div class="texto-principal">
+            <h1 id="titulo">Torne-se um <br /> investidor completo!</h1>
+        </div>
+
+        <!-- Subtítulo abaixo do título -->
+        <div class="texto-secundario">
+            <h2 id="titulo2">Do absoluto Zero a Investidor Completo <br /> em apenas 8 semanas</h2>
+        </div>
+
+        <!-- Vídeo incorporado do YouTube -->
+        <div class="video">
+            <iframe id="tam-video" width="560" height="315"
+                src="https://www.youtube.com/embed/04eJ2P0rbNk?si=X86tmzT3b6zZZDLK" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- Botão principal de ação -->
+        <div class="class-btn-1">
+            <button class="btn-1">Quero começar agora!</button>
+        </div>
+
+        <!-- Texto abaixo do botão -->
+        <div class="texto-btn-baixo">
+            <p>Aprovado por +35.000 alunos em todo o mundo</p>
+        </div>
+
+        <!-- Contador de tempo da promoção -->
+        <div class="caixa-contador">
+            <div id="contador">Carregando...</div>
+        </div>
+    </main>
+
+    <!-- Seção de introdução -->
+    <section>
+        <div class="section-1">
+            <!-- Imagem ilustrativa -->
+            <img id="ideias" src="../img/ideias.png" alt="Ilustração de ideias" />
+
+            <!-- Texto explicativo sobre o curso -->
+            <div class="sub-section">
+                <h2>Descubra como investir com inteligência e segurança.</h2>
+                <p id="margin-p">
+                    Descubra como investir com inteligência e segurança. Aprenda a construir uma carteira sólida,
+                    multiplicar seu
+                    patrimônio e tomar decisões certeiras no mercado — mesmo que você esteja começando do zero.
+                    👉 Comece agora e torne-se O Investidor Completo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de módulos -->
+    <section class="section-h2-modulos">
+        <!-- Título geral da seção -->
+        <div class="h2-modulos">
+            <h2>Tudo o que você precisa para se tornar um investidor completo em 8 semanas está aqui</h2>
+        </div>
+    </section>
+
+    <section class="modulos">
+
+
+        <!-- Container com todos os módulos -->
+        <div class="todos-modulos">
+
+            <!-- MÓDULO 1 -->
+            <div class="container-modulo1" onclick="toggleModulo(this)">
+                <div class="modulo-1">
+                    <div class="titulo-e-icone">
+                        <h2>MÓDULO 1 - O seu cérebro e o seu dinheiro</h2>
+                    </div>
+                    <div class="conteudo-escondido">
+                        <p>
+                            Neste módulo, você vai entender os padrões de comportamento que sabotam seu dinheiro, como
+                            seus hábitos
+                            são formados e o que fazer para assumir o controle das suas finanças com mais consciência e
+                            inteligência
+                            emocional.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MÓDULO 2-->
+            <div class="container-modulo1" onclick="toggleModulo(this)">
+                <div class="modulo-1">
+                    <div class="titulo-e-icone">
+                        <h2>MÓDULO 2 - Comportamento financeiro</h2>
+                    </div>
+                    <div class="conteudo-escondido">
+                        <p>
+                            Aprenda como criar hábitos financeiros saudáveis, tomar decisões conscientes e desenvolver
+                            inteligência
+                            emocional no controle do seu dinheiro.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MÓDULO 3-->
+            <div class="container-modulo1" onclick="toggleModulo(this)">
+                <div class="modulo-1">
+                    <div class="titulo-e-icone">
+                        <h2>MÓDULO 3 - Estratégias avançadas de investimento</h2>
+                    </div>
+                    <div class="conteudo-escondido">
+                        <p>
+                            Neste módulo, você aprenderá técnicas avançadas para diversificar sua carteira, analisar
+                            riscos de forma eficiente e maximizar seus ganhos com investimentos inteligentes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MÓDULO 4-->
+            <div class="container-modulo1" onclick="toggleModulo(this)">
+                <div class="modulo-1">
+                    <div class="titulo-e-icone">
+                        <h2>MÓDULO 4 - Planejamento financeiro e aposentadoria</h2>
+                    </div>
+                    <div class="conteudo-escondido">
+                        <p>
+                            Neste módulo, você vai aprender a organizar suas finanças pessoais a longo prazo, entender a
+                            importância do planejamento para a aposentadoria e conhecer ferramentas para garantir
+                            estabilidade financeira no futuro.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Script externo -->
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
